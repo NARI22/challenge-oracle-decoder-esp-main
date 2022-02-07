@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">Código Secreto</h1>
+
+  <main class="main">
+    <section class="form box">
+      
+        <label for="input-texto">Solo letras minúsculas, sin acento</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui"/>
+      
+        <button class="btn" id="btn-encriptar" onclick="encript()">encriptar!</button>
+        <button class="btn" id="btn-desencriptar" onclick="desencriptar()">desencriptar!</button>
+      
+    </section>
+  
+    <section class="msg box">
+      <h2 id="text-copy">Mensaje a procesar:</h2>
+      <input class="text-input" type="text" id="msg"/>
+      <button class="btn" id="btn-copy" onclick="copiar()">Copiar</button>
+    </section>
+  </main>
+  <footer class="rodaPie">
+    <h3>Desarrollado por: Apps Mictlán (LITG)</h3>
+
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
